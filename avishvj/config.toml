@@ -1,0 +1,89 @@
+baseURL = 'http://avishvj.github.io/'
+languageCode = 'en-gb'
+title = "Avish Vijayaraghavan"
+theme = "hugo-tufte"
+
+math = true
+katex = true
+
+[params]
+  # Subtitle of the website
+  # subtitle = "PhD Candidate in AI for Healthcare"
+  # Your name or the name of you company
+  copyrightHolder = "Avish Vijayaraghavan"
+  # Show the "Powered by Hugo-Tufte and Hugo." 
+  showPoweredBy = true
+  # Site wide kill switch
+  hidedate = false
+  # Uncomment for dark code blocks
+  # codeBlocksDark = true
+
+  # Common social website links, please comment the unused ones.
+  ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
+  ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
+  github = "avishvj"
+  twitter = "avishvj"
+  youtube = "channel/UCbKCp27vrFCNSNqSnlRy1pQ" # check the end of your youtube url https://www.youtube.com/<copy_this>
+  instagram = "avishvj/?hl=en"
+  # google_scholar = "jm5QaHkAAAAJ"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+
+# the url starts at content folder and then goes to rest
+
+[[menu.nav]]
+  name = "Recent Posts"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -80 
+  identifier = "about"
+  url = "/about"
+  # url = "/abouti" # test to see how these pages work
+[[menu.nav]]
+  name = "All Posts"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "posts"
+  url = "/post"
+#[[menu.nav]]
+#  name = "Categories"
+#  pre = "<i class='fas fa-tags fa-lg'></i> "
+#  weight = -90 
+#  identifier = "categories"
+#  url = "/categories"
+
+# -----------------------------------------------------------------------
+# FOOTER MENU
+# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome. 
+# Please head to https://fontawesome.com/v4.7/icons/ to pick icons
+# -----------------------------------------------------------------------
+
+[[menu.footer]]
+  name = "Spotify"
+  pre = "<i class='fab fa-google fa-lg'></i> "
+  weight = -90 
+  identifier = "custom_link"
+  url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
+
+
+# Don't change the settings below
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # make the shortcodes work
+  [markup.highlight]
+      noClasses = false
+
+pygmentsUseClasses = true
+canonifyurls = true

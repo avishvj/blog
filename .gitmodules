@@ -1,0 +1,4 @@
+[submodule "avishvj/public"]
+	path = avishvj/public
+	url = https://github.com/avishvj/avishvj.github.io.git
+	branch = main
