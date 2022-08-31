@@ -55,7 +55,7 @@ katex = true
   pre = "<i class='fas fa-book fa-lg'></i> "
   weight = -100 
   identifier = "posts"
-  url = "/post"
+  url = "/posts"
 #[[menu.nav]]
 #  name = "Categories"
 #  pre = "<i class='fas fa-tags fa-lg'></i> "
@@ -71,7 +71,7 @@ katex = true
 
 [[menu.footer]]
   name = "Spotify"
-  pre = "<i class='fab fa-google fa-lg'></i> "
+  # pre = "<i class='fab fa-google fa-lg'></i> "
   weight = -90 
   identifier = "custom_link"
   url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
