@@ -51,17 +51,17 @@ katex = true
   url = "/about"
   # url = "/abouti" # test to see how these pages work
 [[menu.nav]]
+  name = "Categories"
+  pre = "<i class='fas fa-tags fa-lg'></i> "
+  weight = -90 
+  identifier = "categories"
+  url = "/categories"
+[[menu.nav]]
   name = "All Posts"
   pre = "<i class='fas fa-book fa-lg'></i> "
   weight = -100 
   identifier = "posts"
   url = "/posts"
-#[[menu.nav]]
-#  name = "Categories"
-#  pre = "<i class='fas fa-tags fa-lg'></i> "
-#  weight = -90 
-#  identifier = "categories"
-#  url = "/categories"
 
 # -----------------------------------------------------------------------
 # FOOTER MENU

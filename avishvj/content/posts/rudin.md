@@ -1,12 +1,12 @@
 ---
 title: "Reflections on Rudin's interpretability classic"
-subtitle: "And how explainable machine learning can still be useful when guided by human expertise."
-date: 2022-08-28T00:28:30+01:00
+subtitle: "Is this the end of deep learning as we know it?"
+date: 2022-09-02T00:28:30+01:00
 type: "post" # needed to add to home page!
 # draft: true
 math: true
 toc: true
-# categories: ["katex", "latex", "tufte-css"]
+categories: ["interpretability", "explainability", "interpretable neural networks", "scientific discovery", "blog post"]
 ---
 
 ## Paper Summary
@@ -22,7 +22,7 @@ XAI grew out of work on function approximation in the 1980s which aimed to find 
   src="../../data/rudin/husky.png" 
   class="class param"
   title="Figure 1."
-  caption="Using saliency maps, we cannot tell why this image has been labelled as a dog or a musical instrument since the explanations look the same. Image from [1]."
+  caption="Using attention maps, we cannot tell why this image has been labelled as a dog or a musical instrument since the explanations look the same. Image from [1]."
   label="husky"
   alt="alt"
   link="link"
@@ -56,7 +56,7 @@ Although Rudin advocates for IML, there are two unexplored topics in this paper 
   alt="alt"
   link="link"
  >}}
-{{< section "end" >}} For example, in computational chemistry, Schwaller and colleagues analysed text representations of chemical reactions using transformers and their corresponding explainable attention maps [3]. Taking the attention maps for each reaction as a unique reaction signature (as shown in Figure 3), they were able to map out chemical reaction space [4]. Guided by human scientists, this work was then used to identify viable synthesis routes in the lab for high-impact materials like drugs. In computational biology, Avsec et al. [5] predicted gene expression levels from text representations of genomic data, using attention maps to capture long-range receptive fields of genes. Similar to the Siberian husky example in Figure 1, these maps do not tell us how the relationship works between genes, but they do tell us that these relationships exist. And then using their biological knowledge, the authors were able to infer specific details of these gene regulation circuits which are useful for understanding rare disorders. For these unsupervised "potentially high-stakes" examples where we are presented with data in forms we understand (e.g. text) but with non-intuitive structure (e.g. chemical reaction structure, genomic structure), deep explainable methods guided by human expertise present a useful initial approach. 
+{{< section "end" >}} For example, in computational chemistry, Schwaller and colleagues analysed text representations of chemical reactions using transformers and their corresponding explainable attention maps [3]. Taking the attention maps for each reaction as a unique reaction signature (as shown in Figure 3), they were able to map out chemical reaction space [4]. Guided by human scientists, this work was then used to identify viable synthesis routes in the lab for high-impact materials like drugs. In computational biology, Avsec et al. [5] predicted gene expression levels from text representations of genomic data, using attention maps to capture long-range receptive fields of genes. Similar to the Siberian husky example in Figure 1, these maps do not tell us how the relationship works between genes, but they do tell us that these relationships exist. And then using their biological knowledge, the authors were able to infer specific details of these gene regulation circuits which can be useful for understanding rare disorders. For these unsupervised "potentially high-stakes" examples where we are presented with data in forms we understand (e.g. text) but with non-intuitive structure (e.g. chemical reaction structure, genomic structure), deep explainable methods guided by human expertise present a useful initial approach. 
 
 In fact, work of this kind broadens the toolkit of the first stage of model development - exploratory data analysis (EDA). Deep learning's black box nature limits its use in the final model development stage, but its effectiveness on a wide range of tasks makes it well-suited to initial exploration. As part of my PhD programme, I presented a summary of Rudin's paper to the rest of the cohort. During the presentation, an audience member asked *"whether this paper indicates the end of black boxes and deep learning (DL)?"* - my answer was a resounding no. I believe it will evolve into two things: firstly, the aforementioned integration with the EDA process, and secondly, into hybrid models of DL and IML (a.k.a. interpretable neural networks), which constrain the unbounded expressivity of neural networks (NNs) with domain-specific knowledge. Some examples of this latter work include neural additive models [6] which combine NNs with the interpretable model class of generalised additive models, conceptually-disentangled NNs which revolve around assigning meaningful concepts to the network’s neurons to understand the model’s reasoning [7, 8]{{< sidenote "sn-example" >}}Note that the second reference is from Rudin's lab. They cover more examples of disentangled neural networks in Chapters 5 and 6 of their recent review paper looking at major challenges for interpretable machine learning [17].{{< /sidenote >}}, and broader model classes that combine NNs with mechanistic differential equation systems such as neural ordinary differential equations [9] and physics-informed NNs [10]. 
 
@@ -66,12 +66,11 @@ Our final remark on the paper considers complex explanations. As humans, our dec
 
 ## Conclusion
 
-In this paper, Prof. Cynthia Rudin makes an important distinction between interpretable and explainable machine learning, and I agree with her main message that high-stakes problems necessitate interpretable models. However, since this paper being published in 2019, transformers and their attention maps have shown success over a range of high-dimensional data tasks, which has led me to think that Rudin’s original hypothesis for explainability in high-stakes decisions can be updated. With a more nuanced definition of high-stakes decisions, there is space for explainable models early in the model development process, particularly for unsupervised work on non-intuitive data. And looking further ahead, recent work into understanding transformer mechanisms could be the key to making previously-explainable methods interpretable and creating interpretable neural network frameworks which are accessible to practitioners from a variety of fields. Questions remain over optimal policies for incentivising interpretable model building but given that high-stakes data science problems are prevalent across academia, industry, and government, the future looks promising for formal interdisciplinary notions of interpretability.
+In this paper, Prof. Cynthia Rudin makes an important distinction between interpretable and explainable machine learning, and I agree with her main message that high-stakes problems necessitate interpretable models. However, since this paper being published in 2019, transformers and their attention maps have shown success over a range of high-dimensional data tasks, which has led me to think that Rudin’s original hypothesis for explainability in high-stakes decisions can be updated. With a more nuanced definition of high-stakes decisions, there is space for explainable models early in the model development process, particularly for unsupervised work on non-intuitive data. And looking further ahead, recent work into understanding transformer mechanisms could be the key to making previously-explainable methods interpretable and creating interpretable neural network frameworks which are accessible to practitioners from a variety of fields. So, is this the end of deep learning as we know it? At the very least, I think it's the start of the end. Questions remain over optimal policies for incentivising interpretable model building but given that high-stakes data science problems are prevalent across academia, industry, and government, the future looks promising for formal interdisciplinary notions of interpretability. And hopefully at some point in the future, the thought of using a completely unexplained black box will seem like a distant memory. In the meantime, us applied scientists can work towards closing the interpretability gap on deep learning and help realise its potential for scientific discovery.
 
 ## Acknowledgements
 
-This work was supported by the UKRI CDT in AI for
-Healthcare [http://ai4health.io](http://ai4health.io) (Grant No. EP/S023283/1) and AstraZeneca. Special thanks to other members of the CDT for their thoughtful questions and Ahmed Fetit for checking this over.
+This work was supported by the UKRI CDT in AI for Healthcare [http://ai4health.io](http://ai4health.io) (Grant No. EP/S023283/1) and AstraZeneca. Special thanks to other members of the CDT for their thoughtful questions, and Ahmed Fetit and Joram M. Posma for checking over drafts of this.
 
 ## Bibliography
 
