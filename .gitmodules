@@ -2,3 +2,6 @@
 	path = avishvj/public
 	url = https://github.com/avishvj/avishvj.github.io.git
 	branch = main
+[submodule "avishvj/avishvj.github.io"]
+	path = avishvj/avishvj.github.io
+	url = https://github.com/avishvj/avishvj.github.io

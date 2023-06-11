@@ -21,8 +21,8 @@ katex = true
   # Common social website links, please comment the unused ones.
   ## (if your favorite one is not in the list, please head to the footer menu below and add an entry)
   ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
-  github = "avishvj"
-  twitter = "avishvj"
+  # github = "avishvj"
+  # twitter = "avishvj"
   # youtube = "channel/UCbKCp27vrFCNSNqSnlRy1pQ" # check the end of your youtube url https://www.youtube.com/<copy_this>
   linkedin = "hi"
   # instagram = "avishvj/?hl=en"
@@ -82,9 +82,21 @@ katex = true
 # -----------------------------------------------------------------------
 
 [[menu.footer]]
+  name = "GitHub"
+  weight = -100 
+  identifier = "custom_link"
+  url = "https://github.com/avishvj"
+
+[[menu.footer]]
+  name = "Twitter"
+  weight = -100 
+  identifier = "custom_link1"
+  url = "https://twitter.com/avishvj"
+
+[[menu.footer]]
   name = "Spotify"
   weight = -90 
-  identifier = "custom_link"
+  identifier = "custom_link0"
   url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
 
 [[menu.footer]]
