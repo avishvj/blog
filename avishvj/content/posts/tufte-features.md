@@ -3,7 +3,7 @@
 title: "Hugo-Tufte Features"
 subtitle: "Fancy Subtitle"
 date: 2022-08-27T00:28:30+01:00
-type: "post" # needed to add to home page!
+# type: "post" # needed to add to home page!
 math: true
 meta: true
 draft: true

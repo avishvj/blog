@@ -23,7 +23,8 @@ katex = true
   ### Please note that some of the value below are only provided as an exemple, perhaps the computed isn't valid
   github = "avishvj"
   twitter = "avishvj"
-  youtube = "channel/UCbKCp27vrFCNSNqSnlRy1pQ" # check the end of your youtube url https://www.youtube.com/<copy_this>
+  # youtube = "channel/UCbKCp27vrFCNSNqSnlRy1pQ" # check the end of your youtube url https://www.youtube.com/<copy_this>
+  linkedin = "hi"
   # instagram = "avishvj/?hl=en"
   # google_scholar = "jm5QaHkAAAAJ"
 
@@ -39,19 +40,18 @@ katex = true
 
 [[menu.nav]]
   name = "Recent Posts"
-  pre = "<i class='fas fa-home la-lg'></i> "
+  # pre = "<i class='fas fa-home la-lg'></i> "
   weight = -110 
   identifier = "home"
   url = "/"
 [[menu.nav]]
   name = "YouTube"
-  # pre = <i class="fa fa-youtube" aria-hidden="true"></i>
   weight = -100 
   identifier = "youtube"
   url = "https://www.youtube.com/@avishvijayaraghavan"
 [[menu.nav]]
-  name = "About"
-  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  name = "About Me"
+  # pre = "<i class='fas fa-info-circle  fa-lg'></i> "
   weight = -90
   identifier = "about"
   url = "/about"
@@ -70,7 +70,7 @@ katex = true
 #  url = "/categories"
 [[menu.nav]]
   name = "All Posts"
-  pre = "<i class='fas fa-book fa-lg'></i> "
+  # pre = "<i class='fas fa-book fa-lg'></i> "
   weight = -70 
   identifier = "posts"
   url = "/posts"
@@ -83,17 +83,16 @@ katex = true
 
 [[menu.footer]]
   name = "Spotify"
-  # pre = "<i class='fab fa-google fa-lg'></i> "
   weight = -90 
   identifier = "custom_link"
   url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
 
 [[menu.footer]]
   name = "LinkedIn"
-  pre = "<i class='fa fa-linkedin-square' aria-hidden='true'></i>"
-  weight = -90 
-  identifier = "custom_link"
+  weight = -89 
+  identifier = "custom_link2"
   url = "https://uk.linkedin.com/in/avish-vijayaraghavan"
+
 
 
 # Don't change the settings below
