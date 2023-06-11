@@ -24,7 +24,7 @@ katex = true
   github = "avishvj"
   twitter = "avishvj"
   youtube = "channel/UCbKCp27vrFCNSNqSnlRy1pQ" # check the end of your youtube url https://www.youtube.com/<copy_this>
-  instagram = "avishvj/?hl=en"
+  # instagram = "avishvj/?hl=en"
   # google_scholar = "jm5QaHkAAAAJ"
 
 [taxonomies]
@@ -39,27 +39,39 @@ katex = true
 
 [[menu.nav]]
   name = "Recent Posts"
-  pre = "<i class='fas fa-home la-lg'></i>"
+  pre = "<i class='fas fa-home la-lg'></i> "
   weight = -110 
   identifier = "home"
   url = "/"
 [[menu.nav]]
+  name = "YouTube"
+  # pre = <i class="fa fa-youtube" aria-hidden="true"></i>
+  weight = -100 
+  identifier = "youtube"
+  url = "https://www.youtube.com/@avishvijayaraghavan"
+[[menu.nav]]
   name = "About"
   pre = "<i class='fas fa-info-circle  fa-lg'></i> "
-  weight = -80 
+  weight = -90
   identifier = "about"
   url = "/about"
   # url = "/abouti" # test to see how these pages work
-[[menu.nav]]
-  name = "Categories"
-  pre = "<i class='fas fa-tags fa-lg'></i> "
-  weight = -90 
-  identifier = "categories"
-  url = "/categories"
+#[[menu.nav]]
+#  name = "Publications"
+#  pre = "<i class='fas fa-tags fa-lg'></i> "
+#  weight = -80
+#  identifier = "publications"
+#  url = "to google scholar"
+#[[menu.nav]]
+#  name = "Post Categories"
+#  pre = "<i class='fas fa-tags fa-lg'></i> "
+#  weight = -80
+#  identifier = "categories"
+#  url = "/categories"
 [[menu.nav]]
   name = "All Posts"
   pre = "<i class='fas fa-book fa-lg'></i> "
-  weight = -100 
+  weight = -70 
   identifier = "posts"
   url = "/posts"
 
@@ -75,6 +87,13 @@ katex = true
   weight = -90 
   identifier = "custom_link"
   url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
+
+[[menu.footer]]
+  name = "LinkedIn"
+  pre = "<i class='fa fa-linkedin-square' aria-hidden='true'></i>"
+  weight = -90 
+  identifier = "custom_link"
+  url = "https://uk.linkedin.com/in/avish-vijayaraghavan"
 
 
 # Don't change the settings below
