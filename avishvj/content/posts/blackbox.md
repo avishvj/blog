@@ -2,7 +2,7 @@
 title: "Stuck between two black boxes"
 subtitle: "Drug discovery is not a tech problem yet"
 summary: "Drug discovery is not a tech problem yet"
-date: 2023-06-25
+date: 2023-06-28
 type: "post" # needed to add to home page!
 math: true
 meta: true
