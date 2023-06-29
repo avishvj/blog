@@ -1,9 +1,11 @@
 ---
 title: "Harnessing attention for social justice"
-date: 2023-01-23T14:12:29Z
+date: 2023-01-23
 draft: false
 type: "post" # needed to add to home page!
-categories: ["book summary", "technosocial dynamics", "blog post"]
+subtitle: "Summarising 'Twitter and Tear Gas' by Zeynep Tufekci"
+summary: "Summarising 'Twitter and Tear Gas' by Zeynep Tufekci"
+categories: ["book summary", "technosocial dynamics"]
 ---
 
 ## Introduction

@@ -1,12 +1,13 @@
 ---
 title: "Reflections on Rudin's interpretability classic"
+summary: "Is this the end of deep learning as we know it?"
 subtitle: "Is this the end of deep learning as we know it?"
-date: 2022-09-02T00:28:30+01:00
+date: 2022-09-02
 type: "post" # needed to add to home page!
 # draft: true
 math: true
 toc: true
-categories: ["interpretability", "explainability", "interpretable neural networks", "scientific discovery", "blog post"]
+categories: ["interpretability", "explainability", "interpretable neural networks", "scientific discovery"]
 ---
 
 ## Paper Summary

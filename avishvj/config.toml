@@ -44,6 +44,12 @@ katex = true
   weight = -110 
   identifier = "home"
   url = "/"
+#[[menu.nav]]
+#  name = "All Posts"
+#  # pre = "<i class='fas fa-book fa-lg'></i> "
+#  weight = -110 
+#  identifier = "posts"
+#  url = "/posts"
 [[menu.nav]]
   name = "YouTube"
   weight = -100 
@@ -68,12 +74,7 @@ katex = true
 #  weight = -80
 #  identifier = "categories"
 #  url = "/categories"
-[[menu.nav]]
-  name = "All Posts"
-  # pre = "<i class='fas fa-book fa-lg'></i> "
-  weight = -70 
-  identifier = "posts"
-  url = "/posts"
+
 
 # -----------------------------------------------------------------------
 # FOOTER MENU
