@@ -56,6 +56,12 @@ katex = true
   identifier = "youtube"
   url = "https://www.youtube.com/@avishvijayaraghavan"
 [[menu.nav]]
+  name = "Publications"
+  # pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -95
+  identifier = "publications"
+  url = "https://scholar.google.com/citations?hl=en&user=uIqGkKcAAAAJ&scilu=&scisig=AEDxBGwAAAAAZJz1sFJwRc1zPKZVuXN9dVQVdXA&gmla=AMpAcmTnKoOxaOUDzY7xfT8I6qvgvfdsY6PyOd_U1b1gTFqbv7BxuXNbA10Xvfqkgw7WS4F4-FkStaTyTdeAvQmlaZRvcxxMjM_hb4s&sciund=7277534980342204979&gmla=AMpAcmSPxUJzyx3Q0NKeU-ZIIQk43uXx-__iSjyZfR78Xs8i9hhmplQvyQi2etAe8M_50QPUQeOCerU0uHWJs6h-ZM21Ngg3JmIErGPxNgs&sciund=2364057369895411321"
+[[menu.nav]]
   name = "About Me"
   # pre = "<i class='fas fa-info-circle  fa-lg'></i> "
   weight = -90
