@@ -1,0 +1,144 @@
+---
+title: "Short notes on 10 non-fiction books, 2018-2020"
+subtitle: "Getting back into reading"
+summary: "Getting back into reading"
+date: 2024-04-08
+type: "post" # needed to add to home page!
+math: true
+meta: true
+draft: false
+toc: true
+categories: ["book summary", "biomedicine", "technosocial dynamics", "politics"]
+---
+
+## Introduction
+
+I didn’t read from the ages of 13 to 19 and wanted to get back into it. I also wanted it to be somewhat useful for my long-term aim of building a social good company. That led me to a bunch of short, readable non-fiction books. I revisited my original notes on these books at the start of the year, trimmed the fat, and the result is this blog post of very personalised book summaries. For those looking for a quick fix, I've included my one line reflections on each book at the end. I did read some more interesting ones during this time period which I've started doing longer-form stuff on: here’s a [video on The Divided Self by RD Laing](https://youtube.com/watch?v=AcxIx-ZKAMA&t=1s), and a [blog post based on Twitter and Tear Gas by Zeynep Tufekci](https://avishvj.github.io/posts/tatg/).
+
+
+## Doing Good Better
+**Doing Good Better: Effective Altruism and How You Can Make a Difference, William MacAskill (2015)**
+
+Lol. The EA bible. Read this before the SBF saga{{< sidenote "sn-example" >}}[And the boy just got 25 years...](https://edition.cnn.com/2024/03/28/business/ftx-sam-bankman-fried-sentencing/index.html#:~:text=Sam%20Bankman%2DFried%20has%20been,a%20Manhattan%20court%20ruled%20Thursday.){{< /sidenote >}} and thought it kinda made sense. Still kinda do. It doesn’t seem like there are that many large organisations that are as error-correcting and welcome to criticism as the EA movement. That to me seems the main aim - a movement that tries to do reasonable evidence-based good and can adapt. Some oddballs from the rationalist community seem to have filtered in which has given it a bad rep but I hope it sticks around and matures into something better.
+
+First, the pros. It was the first I read about “earning to give”, “quality-adjusted life years (QALYs)”, proper analysis of charities - these are all pretty useful concepts to help you think about how you can do good and still live a good life, and I think this book and movement pushed them into the general public. Also, the discussion on marginal value of your career was insightful. Namely, that the difference you make isn’t equal to the difference between your country having X doctors and X+1 doctors, it is the difference you make becoming a doctor as compared to someone else (the average quality doctor, say) taking your place. This sort of reasoning has been something I’ve used in my own career decisions and research projects since then.
+
+So, why am I not an EA? The author is pretty handwavy about the calculations they used for “evidence-based” charity choices, which I think reflects the absurd complexity of the problems this book sets out to solve. EA rests primarily on utilitarianism and I don't believe in *just* that. It's good to look at long-term problems, but they get so long-term in certain cases (e.g. negative consequences of a mythical superintelligence) that it becomes a thought experiment rather than something that will actually help people. There are enough problems now that need solving, they just aren't as sexy. I'll leave my criticism there. They’ve been hounded in the press over the past few years but I still think the majority are looking to help the world in a manageable way. A lot of the principles here are good, and there’s a nice summary of practical tips on the back page.
+
+
+## Prisoners of Geography
+**Prisoners of Geography: Ten Maps That Tell You Everything You Need To Know About Global Politics, Tim Marshall (2015)**
+
+The [top review on Goodreads](https://www.goodreads.com/book/show/25135194-prisoners-of-geography) sums this up better than I can. It seems like everything in this book is viewed through the lens of Western neoliberalism and imperialism. The result is a caricatured view of the world based purely on power dynamics, where there are clear good and bad guys. It’s not a view I subscribe to, and I think the reasons for the USA going abroad are as much about power, resources, and military investment as they are about spreading peace and liberal democracy. Regardless, this book takes on the lofty aim of explaining the world through geography and it hasn't done a bad job. I’m just gonna mention a few facts I found interesting.
+
+**China**. There are the usual things on China’s vested interests in Tibet, Xinjiang, and Taiwan, and the whole “collective vs individual rights” spiel about how China compares to the West. Some interesting facts, though. One challenge for China is feeding its population - more than 40% of arable land is now either polluted or has thinning topsoil. China is in a Catch-22: it needs to keep industrialising as it modernises and raises standards of living, but that same process threatens food production. Another interesting development is China’s investment into Africa -  they are building ports in Kenya, railway lines in Angola, and a hydroelectric dam in Ethiopia. After reading about accusations of neo-colonialism, [this video](https://www.youtube.com/watch?v=P5uzxV8ub9k) paints a nuanced relationship of China’s relationship in Africa as one of mutual benefit, not exploitation. As phrased by one of the top comments on the vid: “China might win more, but at least Africa doesn’t lose.”  
+
+**The Middle East**. After WWI, there were fewer borders in the wider Middle East than currently exist, and those that did exist were usually determined by geography alone. The spaces within them were loosely subdivided and governed according to geography, ethnicity and religion, but there was no attempt to create nation states and most regions didn’t have a clear identity. But since then, certain regions which are particularly challenging to get to and attack have developed a distinct cultural identity like Iraq’s Kurds. One other interesting thing I found out from Wikipedia’ing is that the Tories actually had a strong tradition of Arabism from the early to mid 20th century but Thatcher and growing issues around the Israel-Palestine conflict shifted their priorities to Israel.
+
+**India**. Impossible to understand without noting the variety of different cultures and how they interact. India has three states with a Christian majority (Nagaland, Mizoram, and Meghalaya) - Nagaland is 75% Baptist, more than any US state! 
+
+**South America**. The destruction of the Amazon Rainforest is long-term ecological problem for the whole world but also a medium-term problem for Brazil: the government allows slash-and-burn farmers to cut down the jungle and then use the land for agriculture. But the soil is so poor that within a few years, crop-growing is untenable. Then the farmers cut more rainforest down and the cycle continues.
+
+
+## Systems Biology
+**Systems Biology: A Very Short Introduction, Eberhard O. Voit (2020)**
+
+Systems biology is an interdisciplinary field that combines biology with mathematics, statistics, computing, and engineering to understand the roles and interactions of biological components. The field’s roots can be traced back to the Scientific Revolution of the 17th century, which brought microscopes, microbiology, and the development of the scientific method. In the 19th century, physiology became a big thing in biology; then in the 20th century, DNA research and powerful imaging technologies drove progress and created the field of molecular biology. Finally, the early 21st century has brought even more powerful sequencing technologies that can collect way more molecular data.
+
+In this era of big biological data, a necessary driver of progress is communication between experimentalists and computational scientists. This focus on big data has shifted the scientific method to place a bigger emphasis on using in-silico (i.e. computational) experimentation to form hypotheses to remember what does/doesn’t work and iterate better on experiments{{< sidenote "sn-example" >}}Re-reading these notes in 2024, the vision is starting to be realised. We’re seeing pharma companies (e.g. Recursion, Relation) trying to build closed wetlab/drylab environments for rapid design and iteration of drugs.{{< /sidenote >}}. The challenge here is that biology is a lot more chaotic than other sciences. Biological circuits aren’t easily predictable like electrical circuits because of non-linear interactions between components and because there are no set laws like, e.g., thermodynamics, or F=ma. A few interesting ones that have been proposed though:
+- “Every cell comes from a cell” (Rudolf Virchow, 19th Century)
+- Competitive exclusion principle i.e. two species competing for the exactly same limited resource cannot truly coexist since any advantage will lead to dominance of that species (Georgii Gause, 20th Century)
+- Codon law of genetics: each codon codes for one amino acid in the protein translated from the RNA, independent of the organism or species. Direct consequence of this law is information regarding which proteins organisms can produce.
+
+
+## Genomics & Personalised Medicine
+**Genomics & Personalised Medicine: What Everyone Needs to Know, Michael Snyder (2016)**
+
+Another short introduction to a topic I’d ended up doing for my PhD. I remember getting excited at all the various ways we could collect healthcare data and the idea that we could make healthcare preventative rather than reactive. One thing I didn’t realise is how far we are from this because of issues around data standardisation, data infrastructure, privacy, resource constraints in different countries, and more pressing problems in healthcare systems{{< sidenote "sn-example" >}}See: [NHS waiting lists…](https://www.theguardian.com/society/2024/apr/03/almost-10-million-people-in-england-could-be-on-nhs-waiting-list){{< /sidenote >}} that make this kind of blue skies research an afterthought. Took me halfway through the PhD to clock that. Another thing I didn’t realise, which sounds kinda stupid now, is just how many diseases there are. And how they’ve evolved as society has developed.
+
+Some important points on funding genomics initiatives at scales. Genomic sequencing for preventative purposes is gaining traction in places with centralised public/hybrid healthcare like Canada, Europe, and Japan. My hunch is the centralisation makes it easier to push system-wide changes through. Looking at the 100,000 Genomes Project from the UK, it does seem like the close proximity to the NHS (a public healthcare system) has helped genomics filter into clinical work relatively smoothly and consequently benefit more patients. Ultimately, genomic sequencing will only be introduced if examples show it gives better healthcare quality, outcomes, or costs. The key challenge there is that many undiagnosed diseases are not solved by genomic sequencing alone (e.g. you may need other molecular data like metabolites or proteins, or even need understanding of the person’s immune system), and even if they were, can result in further tests, drugs, and costs. It’s going to be a lot of money and trial-and-error. That doesn’t mean it’s not worth it. We just need enough small wins along the way to keep the motivation and funding ticking along.
+
+There are thorny ethical concerns with genomics. If we actually understood biology, it would be the most sensitive data you have. But we only kinda do, and this imprecision makes the ethical issues very context-dependent. One example: mutations can be deleterious (i.e. increase risk of developing a disease) in some cases and beneficial in others, e.g., sickle cell anaemia mutations are thought to help prevent malaria while cystic fibrosis mutations are thought to help reduce tuberculosis. Also, from a species perspective, eliminating all disease-causing mutations and creating a more homogeneous population will likely make humans more susceptible to pathogens.
+
+There’s also a bunch of patient-facing questions we need answers to. Who controls your genome sequence and other health information? The concept of “controlling” your genomic data is not as straightforward in implementation. What should be delivered and how? What information you want and how it is returned requires serious thought: how certain are we of this information (given it’s often come from probabilistic modelling) and how do we report this certainty? Do you want all of your information returned to you or just the actionable information? What is your definition of “actionable”? Then, who delivers genomic information to you? Different results may be reported by different providers. The main thing is that healthcare professionals need to talk to patients beforehand in order to understand exactly what type of info they want and then tailor the report accordingly - this requires clear, consistent collaboration between genomic specialists, counsellors, and doctors. 
+
+
+## Deep Medicine
+**Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again, Eric Topol (2019)**
+
+A big issue in medicine is what we regard as “normal”. A commonly-used tactic is to look at the mean of a normal distribution for a certain medical parameter, and then consider enough standard deviations from that as some kind of extreme. But this relies on the false premise and fixation on an “average” patient, who does not exist. There are other issues with the assumption that biology will neatly fit into a normal distribution and not the whole variety of (combinations of) distributions out there. And much of this data collection is based on snapshots of patient profiles when they come into the clinic rather than how their health changes over time and so is bound to be imprecise. Honestly, it’s a miracle that anything in medicine even works…
+
+There is a connection between the patient-doctor relationship and medical errors: superficial contact with patients promotes incorrect diagnoses and unnecessary tests/treatments. I remember talking to a friend who’s a doctor about this. She said something that stuck with me: “Seeing people and hearing their stories is a better way to remember a diagnosis.” Ultimately, medicine is a human endeavour, not an assembly line. Topol mentions an important clause in the Hippocratic Oath: sympathy and understanding may outweigh the surgeon’s knife or the chemist’s drug. “You don’t need to ask your patients a million questions, you offer your presence to patients and invite them to tell you what *they think you should know* about their situation.” 
+
+Topol has doubts that deep learning or robots will ever be capable of reproducing the essence of human-to-human support. For the most part, I agree with this. But there are some surprises I’ve seen recently - [initial results trialling AI chatbots for therapy](https://www.nature.com/articles/s41599-023-02567-0) have shown promise. The main advantage here is they don’t tire out as quickly or in the same way that humans do. Ultimately though, the point is that we can’t replace doctors with machines but we can empower doctors by automating grunt work and giving them more time for meaningful work. And what is “grunt” work and “meaningful” work will be constantly updated based on personal experiences of doctors. Even small time savings on the daily could help a country’s health system massively. If you remove a doctor's need to do data analysis, you give them an extra 5 mins per patient and save training time and costs. Scaled up to 1000s of doctors, these time and money savings could save the health system millions and improve care.
+
+I came out this book with a lot more respect for doctors and what they do. A very rough equation for medicine is: healing = diagnosis + treatment + empathy. That empathy can never be fully automated. In this way, AI is going to highlight what doctors really do as all the fluff gets automated away. 
+
+
+## The Epigenetics Revolution
+**The Epigenetics Revolution: How Modern Biology is Rewriting Our Understanding of Genetics, Disease and Inheritance, Nessa Carey (2011)**
+
+I used to think epigenetics meant our environment directly affects our internal biology. In most cases, it’s not quite as simple as Nurture affects Nature (i.e. your environment literally permanently affecting your molecular biology), but there is a kernel of truth to that statement. Some changes that happen can be passed down through generations - one important example is how the body learns to respond to scarcity in a famine and these traits then get passed down to younger generations who are no longer in a scarce environment. One bit of trivia: yeast never methylate their DNA so all epigenetic effects must be caused by histone modifications which makes them a useful model for epigeneticists. And another: it was scientists working with plants who realised that very small RNA molecules move from one cell to another, silencing gene expression as they go which can spread epigenetic responses from one location to another - crazy! 
+
+Ultimately, a biological event is likely to be influenced by an epigenetic mechanism if one or both of the following are met: (1) two things are genetically identical, but phenotypically variable, (2) an organism continues to be influenced by an event long after it has occurred.
+
+A few neat scientific proverbs in this book
+- The best scientific experiments are designed to disprove, not to prove, an idea.
+- Absence of evidence is not the same as evidence of absence.
+- The most important thing in science is not so much to obtain new facts as to discover new ways of thinking about them.
+
+
+## The Autobiography of Malcolm X
+**The Autobiography of Malcolm X: As Told to Alex Haley, Malcolm X and Alex Haley (1987)**
+
+I didn’t make a lot of notes on this book. What I remember was this brought Malcolm X down from his pedestal for me, humanised him, and then lifted him back on the pedestal. He was a person who achieved extraordinary things but he was still just a person. And that makes his achievements all the more impressive. It’s something I’ve thought about more as I’ve gotten older - not just about other historical figures (e.g. Gandhi), but also about celebrities, parents, any person with authority. All just people. It became apparent why Malcolm X took very combative tactics (e.g. advocating for black and white segregation to build up black communities) early in his life given his intense experiences with racism. Honestly, this was one of the most inspirational books I’ve read. Crying shame he was taken so early as he had become more practical with his ideas towards the end of his life and there seemed to be a potential collaboration brewing between him and MLK Jr.
+
+
+## Social Entrepreneurship
+**Social Entrepreneurship, David Bornstein & Susan Davis (2010)**
+
+This is a short summary on how social entrepreneurship (SE) works and how you can get started. SE is about building companies - can be non-profits - that achieve some social good. Much of this philosophy is borne from the surprisingly short timelines of foreign aid.
+Foreign aid workers, like politicians, need success in two-to-four year cycles to motivate continued funding. To deal with this, agile experimentation a la startups is needed: begin with an understanding of the people in the region, combine that with a theory of development, then iterate on simple solutions. Social entrepreneurs don’t control major resources so they need to be able to leverage them: work with external funders for regular capital, governments for wider implementation and legitimacy, and legacy media for visibility. Unlike activists who usually proceed as outsiders to power, social entrepreneurs combine insider- and outsider-oriented tactics. Governments can also help back: they should make better regulations for incentivising social entrepreneurship, e.g., make it easier to open and close a social-purpose org, introduce innovation funds for investment in high-performing SE institutions.
+
+There’s been a big shift in global development over the past few decades - the field used to wrongfully paint poor people as needy beneficiaries whereas now they’re given much more agency. A lot of that agency comes from financial freedom{{< sidenote "sn-example" >}}I strongly believe in this worldview and charities like [GiveDirectly](https://www.givedirectly.org/) are good if you agree.{{< /sidenote >}} which has led to smart financial schemes for those with lower incomes, like microfinance. Before microfinance, bankers assumed loans were managed one-to-one and secured with collateral which doesn’t hold true for the poor. Importantly, the only way you get to these solutions is by understanding your assumptions, the pain points of the population in question, and how similar/different they are from those of well-studied populations. 
+
+Quick template for starting on a problem
+- From a general topic, narrow your focus to one area. Study the history of the problem and then list the five most important innovations occurring in that field.
+- Get yourself familiar with the problems, approaches, and actors in that area. You will then be able to spot patterns and identify gaps. Now develop your idea and write down a plan - this is your theory of change. Think about how you could measure or evaluate this success.
+- If someone asks to help, you can ask for money, but also advice, references, introductions.
+- Hard skills you need: finance, distribution, marketing. Experience that could help: volunteer for a political campaign, publishing a letter to an editor or an op-ed, meet with newspapers or politicians.
+- Remember: hold to principles, be flexible about methods.
+
+
+## Against the Web
+**Against the Web: A Cosmopolitan Answer to the New Right, Michael Brooks (2020)**
+
+Michael Brooks was a left-wing commentator who was popular on YouTube and unfortunately passed away in 2020. In this book, he described the logical flaws and hypocrisy espoused by people commonly associated with the centre-right to right-wing of internet culture, dubbed the New Right, or the Intellectual Dark Web. The book’s short and I agree with most of his criticisms. I’ve included his thoughts on Jordan B. Peterson (JBP) and mine too.
+
+**Brooks’ summary.** Peterson is the perfect self-help guru in that he is highly emotional, pop-culture-friendly, with middle-brow intellectualism, grounded in appeals to an imagined past. He is a gifted speaker and his mythologising has the perfect bedtime story appeal which provides a clear individualistic and capitalistic path forward for alienated young men. JBP has a certain appeal for younger white men. Why? Hard to point to one factor but this demographic has felt a sense of change over the past decade. Scott Atran (an anthropologist) suggests resolving male alienation in liberal market societies is the defining challenge of our era. JBP was able to provide simple but ultimately ineffective solutions to this. Generally, Peterson takes on semi-relevant problems, blows them up into macro-issues of our times, and then aims to solve them with self-help micro-solutions. It’s a malaligned focus. Traditions are breaking down, yes. But not because of feminism and Marxism, but because of persistent anxiety, uncertainty about the world, and undercompensation for labour.
+
+**My thoughts.** I liked watching JBP around 2017-18 when he started getting popular -  some of his lectures on Jungian psychology and belief were interesting and accessible to me with no background in the subject. When it was self-help, he came across as a reasonable and principled guy; developing a strong sense of agency, finding meaning, and practical advice to do so. All of that resonated, especially with his gifted speaking skills. But the culture war antics were too much. He’s been gone since 2019 and over the past few years he’s become a caricature. He conflates postmodernism with all left-wing movements, even though postmodernism rejects all meta-narratives that most left-wing movements rely on. It would have been interesting to know why he doesn’t believe in the meta-narrative of Marxism: how each economic system is the most productive in history when introduced but eventually outlives its usefulness and is replaced by newer technology, but JBP doesn’t touch that. The supposed “Cultural Marxism” he loves to bang on about is really Marxism with Freudian thought, and could be interesting to discuss, but again, is something Peterson doesn’t explore. How are you going to a debate Slavoj Zizek and say you haven’t read anything on Marx since you were 18? It’s just vague platitudes about individualism while uncritically supporting legacy institutions under the guise of traditionalism and stability. Why would we randomly pick lobster hierarchies as ours? It’s almost comical - the question should be whether any particular hierarchy is justified, and if not, how we can improve it. He’s obviously a smart guy and I feel like he still cares, I just wish that care extended fully to all types of people, especially those that disagree with him. I wonder if the rise and fall was always inevitable? How are you going to reach the scales he’s at without oversimplifying the message…
+
+
+## Sapiens
+**Sapiens, Yuval Noah Harari (2011)**
+
+This book was a weird one. Very sweeping generalisations about the whole of history but I guess there’s no other way to put all of that in a 500 page book. It talks a lot about how military, industry, and science go hand-in-hand. And how science and capitalism are the most important legacy of European colonialism. Maybe I’m being uncharitable to Harari (he has used phrases like “important legacy” NOT “positive legacy”), but I got a tone of “imperialism was fundamentally good because it gave the world science”. Don't know how I feel about that one. Still a solid read for something that has become a meme.
+
+The book argues that one of the main reasons that humans, in particular, were able to become the ‘dominant’ species on the planet is that we are able to conceptualise/imagine things that aren’t necessarily in front of us or even exist, and use these to cooperate together on a large scale (above that of a small community e.g. 1000 people). These abstract concepts include: religious myths, legends of the supernatural, regions or motherlands, and joint stock companies and other businesses. Such a simple, insightful idea that I hadn't realised until reading this book. Though, Harari does note that historically, this ``cooperation'' was rarely voluntary and often exploitative.
+
+Human cooperation networks are facilitated by money. Money needs to be able to store, convert and transport wealth cheaply and easily. It's a pretty efficient mutual system of trust, too. If another person believes in a form of wealth (e.g. gold, electronic data, etc.), it helps strengthen our own belief in it, regardless of our opinion of the person. That's where it differs from the abstract ideas above like religion - religion asks us to believe in something whereas money asks us to believe that *other people* believe in something. Money also has a dark side - although it builds trust between strangers, this trust is not invested into humans or communities, but into money itself and the impersonal systems that back it (e.g. laws of supply and demand).
+
+
+## One Line Reflections
+
+- **Doing Good Better (2015)**: make decisions based on marginal improvement to the average.
+- **Prisoners of Geography (2015)**: Western neoliberalism is a necessary but insufficient way to understand the world.
+- **Systems Biology (2020)**: biology isn’t like other sciences because of randomness but computers can help us make sense of this, particularly when integrated with wet lab work.
+- **Genomics & Personalised Medicine (2016)**: fancy medical tech is pointless without discussing what patients actually want.
+- **Deep Medicine (2019)**: there will always be a human component of medicine that can’t be automated AND empathy is a necessary part of healing.
+- **The Epigenetics Revolution (2011)**: with caveats, nature vs nurture is a false dichotomy.
+- **The Autobiography of Malcolm X (1987)**: superhuman achievements are always done by humans.
+- **Social Entrepreneurship (2010)**: understand the system, embrace it if possible, and create bottom-up, iterative solutions.
+- **Against the Web (2020)**: staying relevant on the internet whilst not becoming a caricature is very challenging.
+- **Sapiens (2011)**: humans’ ability to conceptualise abstract things is why we can work with people we don't know, build teams across tribal lines, and achieve great things.

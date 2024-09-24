@@ -91,27 +91,38 @@ katex = true
 [[menu.footer]]
   name = "GitHub"
   weight = -100 
-  identifier = "custom_link"
+  identifier = "custom_link0"
   url = "https://github.com/avishvj"
 
 [[menu.footer]]
-  name = "Twitter"
+  name = "X"
   weight = -100 
   identifier = "custom_link1"
-  url = "https://twitter.com/avishvj"
-
-[[menu.footer]]
-  name = "Spotify"
-  weight = -90 
-  identifier = "custom_link0"
-  url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
+  url = "https://x.com/avishvj"
 
 [[menu.footer]]
   name = "LinkedIn"
-  weight = -89 
+  weight = -90 
   identifier = "custom_link2"
   url = "https://uk.linkedin.com/in/avish-vijayaraghavan"
 
+[[menu.footer]]
+  name = "My Playlists"
+  weight = -89 
+  identifier = "custom_link3"
+  url = "https://open.spotify.com/user/31oulktndkregbwdhwlwj3em5izy"
+
+[[menu.footer]]
+  name = "My Music"
+  weight = -88
+  identifier = "custom_link4"
+  url = "https://open.spotify.com/artist/77JwWnM4Tq5EOanhEguNuw"
+
+[[menu.footer]]
+  name = "Letterboxd"
+  weight = -87 
+  identifier = "custom_link5"
+  url = "https://letterboxd.com/avishvj/"
 
 
 # Don't change the settings below
